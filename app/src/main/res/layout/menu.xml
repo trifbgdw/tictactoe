@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#640909"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/newGame"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/hashtag_24"
+        android:text="New"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:onClick="newGame"
+        android:clickable="true"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/settings"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/settings_24"
+        android:text="Settings"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:onClick="settings"
+        android:clickable="true"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
